@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="A medical facility that offers medical services at your doorstep">
+      <meta name="keywords" content="medicalservice, doctor, make appointment, shalom, book a service, lab, run test">
+      <title>Appointment</title>
+      <link rel="icon" type="image/png" href="./image/s-lgo.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat&display=swap" rel="stylesheet">
+      <link href="bootstrap.min.css" rel="stylesheet">
+      <link href="bootstrap.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <style>
+  </style>
+  <body style="background-color: #c1dbe8;">
+    <!-- Header -->
+    <header class="s-header">
+      <div class="s-header-one fixed-top" id="topbar">
+          <div class="s-header-contact">
+            <a href="mailto:Contactus@example.com"><i class="fa-solid fa-envelope icon envelop"></i><span>Contactus@example.com</span></a>
+            <a href="+234-345-421-5688"><i class="fa-solid fa-phone icon envelop"></i><span></span>Hotline: +234-345-421-5688</a>
+          </div>
+          <div class="s-header-icons">
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+
+          </div>
+      </div>
+      <div class="s-header-two fixed-top" id="header">
+          <img src="./image/s-lgo.png" alt="Shalom-healthcare-agency-logo">
+          <ul class="s-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about">About Us</a></li>
+              <li><a href="index.html#service">Services</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <a href="appointment.html" class="butt">For Business</a>
+              <a href="index.html#search" class="butt s-butt">Book an Appointment</a>
+          </ul>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+      <nav class="submenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="index.html#service">Services</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="appointment.html">For Business</a></li>
+          <li><a href="index.html#search">Book an Appointment</a></li>
+        </ul>
+        <div class="s-header-icon">
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+      </nav>
+    </header>
+    <!-- Header-ends  -->
+
+    <!-- Main-content  -->
+    <main class="main">
+        <div class="main-header">
+            <div class="main-txt">
+                <h2>S.H.A</h2>
+                <p>As a leading healthcare agency committed to promoting excellence 
+                    in patient care and operational efficiency, we recognize the 
+                    importance of building strong connections with like-minded institutions.
+                    We believe in fostering collaborative relationships within the healthcare 
+                    community to <br> 
+                    <span> Enhance patient care,</span> <br> 
+                    <span>Share knowledge, and </span> <br> 
+                    <span>Collectively address the challenges in the ever-evolving healthcare landscape.</span>
+                </p>
+                <h3>Follow the simple steps outlined below to register.</h3>
+            </div>
+            <div class="main-img">
+                <div class="flip-cont">
+                    <div class="flip a"></div>
+                    <div class="flip b"></div>
+                </div>
+            </div>
+        </div>
+        <div class="steps">
+            <div class="steps-img"></div>
+            <div class="steps-txt">
+                <h3>Registration Steps</h3>
+                <ul>
+                    <li><i class="fa fa-stethoscope" aria-hidden="true"></i>Fill the registration form below with your facillities' information</li>
+                    <li><i class="fa fa-stethoscope" aria-hidden="true"></i>Await verification within three business days</li>
+                    <li><i class="fa fa-stethoscope" aria-hidden="true"></i>Get started</li>
+                </ul>
+            </div>
+        </div>
+        <form action="appointment.js" method="post" class="register" enctype="multipart/form-data">
+            <h3>Registration Form</h3>
+            <div class="form-group">
+                <input type="text" name="organization" placeholder="Name of Facility">
+                <input type="email" name="email" placeholder="Company email">
+            </div>
+            <div class="form-group">
+                <input type="tel" name="phone1" placeholder="Phone 1">
+                <input type="tel" name="phone2" placeholder="Phone 2">
+            </div>
+            <div class="form-group">
+                <input type="text" name="country" placeholder="Country">
+                <input type="text" name="state" placeholder="State">
+            </div>
+            <div class="form-group">
+                <input type="text" name="city" placeholder="City">
+                <input type="text" name="zipcode" placeholder="Zipcode">
+            </div>
+            <div class="form-group">
+                <input type="number" name="staff" placeholder="Staff Size">
+            </div>
+            <div class="form-c">
+                <p>Department: </p><br>
+                <div class="department">
+                    <div class="dep1"></div>
+                    <div class="dep2"></div>
+                </div>
+            </div>
+            <button type="submit" name="submit">Submit</button>
+        </form>
+    </main>
+    <div class="alert">
+        <p id="msg"></p>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+      <div class="footer">
+        <div class="shalom">
+           <img src="./image/s-lgo.png" alt="shalom logo">
+           <h3>Registered in England and Wales<br >Registeration No: 10291602</h3>
+           <p>53 Priestfield Road, <br />Gillingham, Kent, Me7<br /> 4RE, UNITED KINGDOM </p>
+        </div>
+        <div class="details">
+            <h4 class="hspace">Our Links</h4>
+            <ul>
+              <li><a href="#hero"><i class="fa-solid fa-greater-than foot-link"></i>Home</a></li>
+              <li><a href="about.html"><i class="fa-solid fa-greater-than foot-link"></i>About us</a></li>
+              <li><a href="#service"><i class="fa-solid fa-greater-than foot-link"></i>Services</a></li>
+              <li><a href="contact.html"><i class="fa-solid fa-greater-than foot-link"></i>Contact Us</a></li>
+              <li><a href="appointment.html"><i class="fa-solid fa-greater-than foot-link"></i>Business</a></li> 
+            </ul>
+  
+        </div>
+        <div class="details">
+            <h4 class="hspace">Our Services</h4>
+            <ul>
+              <li><a href="#"><i class="fa-solid fa-greater-than foot-link"></i> Service</a></li>
+              <li><a href="#"><i class="fa-solid fa-greater-than foot-link"></i>Maternity</a></li> 
+              <li><a href="#"><i class="fa-solid fa-greater-than foot-link"></i>Community Health</a></li>
+              <li><a href="#"><i class="fa-solid fa-greater-than foot-link"></i>Diagnostic Services</a></li> 
+            <li><a href="#"><i class="fa-solid fa-greater-than foot-link"></i>Specialized Treatment</a></li> 
+        </ul>
+        </div>
+        <div class="links">
+            <h4>Our Social Networks <br>Connect with us on all our social media handles.</h4>
+            <div class="socials">
+              <a href="#"><i class="fa-brands fa-x-twitter footerlink"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook footerlink"></i></a>
+              <a href="#"><i class="fa-brands fa-square-instagram footerlink"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin footerlink"></i></a>
+            </div>
+            
+        </div>
+        <hr>
+      </div>
+      <hr>
+      <div class="foot">
+          <p><span>&#169;</span> Copyright <span>Shalom Healthcare Agency</span>. All Rights Reserved
+             | Designed by Joshmittech</p>
+      </div>
+
+    </footer>
+    
+
+    <!--Script files-->
+    <script src="./js/appointment.js" async></script>
+    <script src="./js/menu.js" defer></script>
+
+  </body>
+</html>

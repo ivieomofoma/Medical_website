@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="A medical facility that offers medical services at your doorstep">
+      <meta name="keywords" content="medicalservice, doctor, make appointment, shalom, book a service, lab, run test">
+      <title>Shalom Medicals</title>
+      <link rel="icon" type="image/png" href="./image/s-lgo.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat&display=swap" rel="stylesheet">
+      <link href="bootstrap.min.css" rel="stylesheet">
+      <link href="bootstrap.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <a href="#" class="back-to-top text-decoration-none d-flex align-items-center justify-content-center"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    <!-- Header -->
+    <header class="s-header">
+      <div class="s-header-one fixed-top" id="topbar">
+          <div class="s-header-contact">
+            <a href="mailto:Contactus@example.com"><i class="fa-solid fa-envelope icon envelop"></i><span>Contactus@example.com</span></a>
+            <a href="+234-345-421-5688"><i class="fa-solid fa-phone icon envelop"></i><span></span>Hotline: +234-345-421-5688</a>
+          </div>
+          <div class="s-header-icons">
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+
+          </div>
+      </div>
+      <div class="s-header-two fixed-top" id="header">
+          <img src="./image/s-lgo.png" alt="Shalom-healthcare-agency-logo">
+          <ul class="s-menu">
+              <li><a href="#hero" class="scrollto active">Home</a></li>
+              <li><a href="#about" class="scrollto">About Us</a></li>
+              <li><a href="#service" class="scrollto">Services</a></li>
+              <li><a href="contact.html" class="scrollto">Contact Us</a></li>
+              <a href="appointment.html" class="butt">For Business</a>
+              <a href="#main" class="butt s-butt">Book an Appointment</a>
+          </ul>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+      <nav class="submenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About Us</a></li>
+          <li><a href="index.html">Services</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="appointment.html">For Business</a></li>
+          <li><a href="index.html">Book an Appointment</a></li>
+        </ul>
+        <div class="s-header-icon">
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+      </nav>
+    </header>
+    <!-- Header-ends  -->
+      <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-container">
+        <div id="heroCarousel" data-bs-interval="4000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+          <div class="carousel-inner" role="listbox">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url(./image/slidt.jpg);">
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown title">Shalom Healthcare Agency</h2>
+                  <p class="animate__animated animate__fadeInUp">We are committed to providing comprehensive healthcare services for individuals of all ages.</p>
+                  <div>
+                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item" style="background-image: url(./image/slid14.jpg);">
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">Expertise Professionalism</h2>
+                  <p class="animate__animated animate__fadeInUp">A team of highly skilled and experienced healthcare professionals is dedicated to delivering the highest quality care.</p>
+                  <div>
+                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item" style="background-image: url(./image/slid13.jpg);">
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">High Standard of Care</h2>
+                  <p class="animate__animated animate__fadeInUp">Beyond treating illnesses, we emphasize a holistic approach to wellness.</p>
+                  <div>
+                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item" style="background-image: url(./image/slid8.jpg);">
+              <!--Photo by <a href="https://unsplash.com/@hieptltb97?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nguyễn Hiệp</a> on <a href="https://unsplash.com/photos/person-in-white-long-sleeve-shirt-sitting-on-chair-2rNHliX6XHk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">Reliable Service</h2>
+                  <p class="animate__animated animate__fadeInUp">Our agency maintains rigorous safety protocols and standards to ensure a secure environment for both patients and staff.</p>
+                  <div>
+                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+          </a>
+
+          <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- Main-content  -->
+    <main class="main">
+
+      <!-- about1  -->
+      <div class="why-us row" id="main">
+        <div class="why-us-left p-5 rounded col-4">
+          <h1 class="text-light text-left mb-4">Why Choose Us?</h1>
+          <p class="">Our agency provides accountable and reliable healthcare professionals. Our clients get expertise professionalism, extensive care and support and peace 
+            of mind 24/7. We maintain a policy of constant monitoring, feedback and support.
+          </p>
+          <a href="about.html">Learn more</a>
+        </div>
+        <section class="col-8 d-flex align-items-center justify-content-center why-us-right gap-2">
+          <div class="bg-light rounded p-4">
+            <i class="fa fa-wrench fs-1" aria-hidden="true"></i>
+            <p>Robust recruitment and selection policy is in operation.</p>
+          </div>
+          <div class="bg-light rounded p-4">
+            <i class="fa fa-user-md fs-1" aria-hidden="true"></i>
+            <p>Higly skilled professionals, providing expert services.</p>
+          </div>
+          <div class="bg-light rounded p-4">
+            <i class="fa fa-anchor fs-1" aria-hidden="true"></i>
+            <p>A structured line of accountability.</p>
+          </div>
+        </section>
+      </div>
+      
+      <!-- search section  -->
+      <h1 class="appoint" id="search">Make an Appointment</h1>
+      <div class="search-bar">
+        <div class="search-form" method="post">
+          <div class="search-input">
+            <i class="fa fa-medkit" aria-hidden="true"></i>
+            <select name="illness" class="options">
+              <option value="">Treatment</option>
+            </select>
+          </div>
+          <div class="search-input">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <input type="text" name="location" placeholder="Location">
+          </div>
+          <div class="search-input">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <input name="date" type="text" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" placeholder="Date">
+          </div>
+          <button class="search-button">Search</button>
+        </div>
+      </div>
+
+      <!-- search result -->
+      <div class="search-result" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-light">Search Results..</h5>
+              <i class="fa fa-times" aria-hidden="true" onclick="closeUp()"></i>
+            </div>
+            <div class="modal-body">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- about2  -->
+      <section id="about">
+        <section class="d-flex align-items-center justify-content-between gap-2 about-us">
+            <div class="about-txt">
+              <h1>S.H.A</h1>
+              <p>Shalom Healthcare Training and Recruitment is a nursing and care agency,
+                established by a professional with over 30 years experience in nursing.
+                We focus on providing exceptional temporary and permanent staff solutions
+                to wide range of UK healthcare institutions.
+                Our agency adheres to the Care Quality Commission Codes of Conduct which 
+                can be seen in our selection process, producing healthcare institutions 
+                and professionals with Enhanced DB, In-depth extensive training program 
+                and Professional experience checks. <br>
+                Upholding a belief system of care and equality to all clients our core
+                values: reliability, mutually acceptable service user/care worker matching,
+                ensures our service user is satisfied. 
+              </p>
+            </div>
+            <div class="about-image"></div>
+        </section>
+
+        <!-- wedge  -->
+        <section class="d-flex align-items-center justify-content-evenly wedge mt-4">
+          <div class="wedge-box">
+            <i class="fa fa-flask" aria-hidden="true"></i>
+            <div class="wedge-txt">
+              <h3 data-target="20" class="wedge-h1">0</h3>
+              <p class="fs-6">Laboratories</p>
+              </div>
+          </div>
+          <div class="wedge-box">
+            <i class="fa fa-user-md" aria-hidden="true"></i>
+            <div class="wedge-txt">
+              <h3 data-target="60" class="wedge-h1">0</h3>
+              <p class="fs-6">Doctors</p>
+            </div>
+          </div>
+          <div class="wedge-box">
+            <i class="fa fa-briefcase" aria-hidden="true"></i>
+            <div class="wedge-txt">
+              <h3 data-target="25" class="wedge-h1">0</h3>
+              <p class="fs-6">Departments</p>
+            </div>
+          </div>
+          <div class="wedge-box">
+            <i class="fa fa-hospital" aria-hidden="true"></i>
+            <div class="wedge-txt">
+              <h3 data-target="30" class="wedge-h1">0</h3>
+              <p class="fs-6">Health facilities</p>
+            </div>
+          </div>
+        </section>
+
+      </section>
+
+      <!-- service  -->
+      <section id="service" class="service">
+        <h1>Services</h1>
+        <div class="service-container">
+          <div class="serv-container">
+            <i class="fa fa-heartbeat" aria-hidden="true"></i>
+            <div class="serv-txt">
+              <h2>Servium Lovinus</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus 
+                commodi corporis aut facere quo odit? Saepe pariatur ipsam iste?</p>
+            </div>
+          </div>
+          <div class="serv-container">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <div class="serv-txt">
+              <h2>Servium Lovinus</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus 
+                commodi corporis aut facere quo odit? Saepe pariatur ipsam iste?</p>
+            </div>
+          </div>
+          <div class="serv-container">
+            <i class="fa fa-medkit" aria-hidden="true"></i>
+            <div class="serv-txt">
+              <h2>Servium Lovinus</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus 
+                commodi corporis aut facere quo odit? Saepe pariatur ipsam iste?</p>
+            </div>
+          </div>
+          <div class="serv-container">
+            <i class="fa fa-handshake" aria-hidden="true"></i>
+            <div class="serv-txt">
+              <h2>Servium Lovinus</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus 
+                commodi corporis aut facere quo odit? Saepe pariatur ipsam iste?</p>
+            </div>
+          </div>
+          <div class="serv-container">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <div class="serv-txt">
+              <h2>Servium Lovinus</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus 
+                commodi corporis aut facere quo odit? Saepe pariatur ipsam iste?</p>
+            </div>
+          </div>
+          <div class="serv-container">
+            <i class="fa fa-check-square" aria-hidden="true"></i>
+            <div class="serv-txt">
+              <h2>Servium Lovinus</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus 
+                commodi corporis aut facere quo odit? Saepe pariatur ipsam iste?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials">
+        <div class="testimon">
+          <h1>Testimonials</h1>
+          <div class="controls">
+            <button id="next"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button>
+            <button id="prev"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <section class="testimonial-container">
+          <section class="testimonial-slider">
+            <div class="testimonial">
+              <div class="test-img"></div>
+              <div class="testimonial-txt">
+                <h2>Mathew Gordon</h2>
+                <p><i class="fa fa-quote-left" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, 
+                  adipisicing elit. Nostrum voluptatibus ullam dolorum maxime velit, 
+                  architecto iusto molestias. Nesciunt excepturi odit incidunt! Repellendus, sed adipisci!<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+              </div>
+            </div>
+
+            <div class="testimonial">
+              <div class="test-img"></div>
+              <div class="testimonial-txt">
+                <h2>CT Clinic</h2>
+                <p><i class="fa fa-quote-left" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, 
+                  adipisicing elit. Nostrum voluptatibus ullam dolorum maxime velit, 
+                  architecto iusto molestias. Nesciunt excepturi odit incidunt! Repellendus, sed adipisci!<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+              </div>
+            </div>
+
+            <div class="testimonial">
+              <div class="test-img"></div>
+              <div class="testimonial-txt">
+                <h2>Justice Medicals</h2>
+                <p><i class="fa fa-quote-left" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, 
+                  adipisicing elit. Nostrum voluptatibus ullam dolorum maxime velit, 
+                  architecto iusto molestias. Nesciunt excepturi odit incidunt! Repellendus, sed adipisci!<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+              </div>
+            </div>
+
+            <div class="testimonial">
+              <div class="test-img"></div>
+              <div class="testimonial-txt">
+                <h2>James Freshert</h2>
+                <p><i class="fa fa-quote-left" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, 
+                  adipisicing elit. Nostrum voluptatibus ullam dolorum maxime velit, 
+                  architecto iusto molestias. Nesciunt excepturi odit incidunt! Repellendus, sed adipisci!<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+              </div>
+            </div>
+
+            <div class="testimonial">
+              <div class="test-img"></div>
+              <div class="testimonial-txt">
+                <h2>Simon Sandell</h2>
+                <p><i class="fa fa-quote-left" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, 
+                  adipisicing elit. Nostrum voluptatibus ullam dolorum maxime velit, 
+                  architecto iusto molestias. Nesciunt excepturi odit incidunt! Repellendus, sed adipisci!<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+              </div>
+            </div>
+
+            <div class="testimonial">
+              <div class="test-img"></div>
+              <div class="testimonial-txt">
+                <h2>Cathlyn John</h2>
+                <p><i class="fa fa-quote-left" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, 
+                  adipisicing elit. Nostrum voluptatibus ullam dolorum maxime velit, 
+                  architecto iusto molestias. Nesciunt excepturi odit incidunt! Repellendus, sed adipisci!<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+              </div>
+            </div>
+
+            
+          </section>
+          
+        </section>
+        
+      </section>
+      <!-- End Testimonials Section -->
+
+    <!-- faq  -->
+    <section class="faq">
+      <h1>Frequently Asked Questions</h1>
+      <div class="accordion" id="faq">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" style="background-color: #053F5C; color: white;" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faq">
+            <div class="accordion-body" style="background-color: #9bb9c8; font-size: 14px;">
+              <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit. Inventore, unde! Vel tempora voluptas nisi quibusdam id est deserunt animi inventore at culpa, officiis cum aliquid, alias, et ipsam soluta libero.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit? 
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faq">
+            <div class="accordion-body" style="background-color: #9bb9c8; font-size: 14px;">
+              <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit. Inventore, unde! Vel tempora voluptas nisi quibusdam id est deserunt animi inventore at culpa, officiis cum aliquid, alias, et ipsam soluta libero.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" style="background-color: #053F5C; color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faq">
+            <div class="accordion-body" style="background-color: #9bb9c8; font-size: 14px;">
+              <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit. Inventore, unde! Vel tempora voluptas nisi quibusdam id est deserunt animi inventore at culpa, officiis cum aliquid, alias, et ipsam soluta libero.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit? 
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faq">
+            <div class="accordion-body" style="background-color: #9bb9c8; font-size: 14px;">
+              <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit. Inventore, unde! Vel tempora voluptas nisi quibusdam id est deserunt animi inventore at culpa, officiis cum aliquid, alias, et ipsam soluta libero.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" style="background-color: #053F5C; color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faq">
+            <div class="accordion-body" style="background-color: #9bb9c8; font-size: 14px;">
+              <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit. Inventore, unde! Vel tempora voluptas nisi quibusdam id est deserunt animi inventore at culpa, officiis cum aliquid, alias, et ipsam soluta libero.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit? 
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faq">
+            <div class="accordion-body" style="background-color: #9bb9c8; font-size: 14px;">
+              <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit. Inventore, unde! Vel tempora voluptas nisi quibusdam id est deserunt animi inventore at culpa, officiis cum aliquid, alias, et ipsam soluta libero.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+            <button class="accordion-button collapsed" style="background-color: #053F5C; color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit?
+            </button>
+          </h2>
+          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faq">
+            <div class="accordion-body" style="background-color: #9bb9c8; font-size: 14px;">
+              <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit. Inventore, unde! Vel tempora voluptas nisi quibusdam id est deserunt animi inventore at culpa, officiis cum aliquid, alias, et ipsam soluta libero.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery -->
+    <section class="gallery">
+      <h1>Our Gallery</h1>
+      <div class="gallery-cont">
+        <div class="gall">
+          <img src="./image/slid14.jpg" alt="image1">
+        </div>
+        <div class="gall">
+          <img src="./image/slid11.jpg" alt="image1">
+        </div>
+        <div class="gall">
+          <img src="./image/slidt.jpg" alt="image1">
+        </div>
+        <div class="gall">
+          <img src="./image/slide1.jpg" alt="image1">
+        </div>
+        <div class="gall">
+          <img src="./image/slid8.jpg" alt="image1">
+        </div>
+        <div class="gall">
+          <img src="./image/slid7.jpg" alt="image1">
+        </div>
+        <div class="gall">
+          <img src="./image/slid13.jpg" alt="image1">
+        </div>
+        <div class="gall">
+          <img src="./image/slid5.jpg" alt="image1">
+        </div>
+        <div class="gall">
+          <img src="./image/slid2.jpg" alt="image1">
+        </div>
+        <div class="gall">
+          <img src="./image/slid6.jpg" alt="image1">
+        </div>
+        <div class="gall">
+          <img src="./image/slid10.jpg" alt="image1">
+        </div>
+        <div class="gall">
+          <img src="./image/slid4.jpg" alt="image1">
+        </div>
+      </div>
+    </section>
+
+    </main>
+
+    <!-- footer  -->
+    <footer>
+      <div class="footer">
+        <div class="shalom">
+           <img src="./image/s-lgo.png" alt="shalom logo">
+           <h3>Registered in England and Wales<br >Registeration No: 10291602</h3>
+           <p>53 Priestfield Road, <br />Gillingham, Kent, Me7<br /> 4RE, UNITED KINGDOM </p>
+        </div>
+        <div class="details">
+            <h4 class="hspace">Our Links</h4>
+            <ul>
+              <li><a href="#hero"><i class="fa-solid fa-greater-than foot-link"></i>Home</a></li>
+              <li><a href="about.html"><i class="fa-solid fa-greater-than foot-link"></i>About us</a></li>
+              <li><a href="#service"><i class="fa-solid fa-greater-than foot-link"></i>Services</a></li>
+              <li><a href="contact.html"><i class="fa-solid fa-greater-than foot-link"></i>Contact Us</a></li>
+              <li><a href="appointment.html"><i class="fa-solid fa-greater-than foot-link"></i>Business</a></li> 
+            </ul>
+  
+        </div>
+        <div class="details">
+            <h4 class="hspace">Our Services</h4>
+            <ul>
+              <li><a href="#"><i class="fa-solid fa-greater-than foot-link"></i> Service</a></li>
+              <li><a href="#"><i class="fa-solid fa-greater-than foot-link"></i>Maternity</a></li> 
+              <li><a href="#"><i class="fa-solid fa-greater-than foot-link"></i>Community Health</a></li>
+              <li><a href="#"><i class="fa-solid fa-greater-than foot-link"></i>Diagnostic Services</a></li> 
+            <li><a href="#"><i class="fa-solid fa-greater-than foot-link"></i>Specialized Treatment</a></li> 
+        </ul>
+        </div>
+        <div class="links">
+            <h4>Our Social Networks <br>Connect with us on all our social media handles.</h4>
+            <div class="socials">
+              <a href="#"><i class="fa-brands fa-x-twitter footerlink"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook footerlink"></i></a>
+              <a href="#"><i class="fa-brands fa-square-instagram footerlink"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin footerlink"></i></a>
+            </div>
+            
+        </div>
+        <hr>
+      </div>
+      <hr>
+      <div class="foot">
+          <p><span>&#169;</span> Copyright <span>Shalom Healthcare Agency</span>. All Rights Reserved
+             | Omofoma Ivie Celestina</p>
+      </div>
+
+    </footer>
+    
+
+    <!--Script files-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/scroll.js" defer></script>
+    <script src="./js/menu.js" defer></script>
+
+  </body>
+</html>
